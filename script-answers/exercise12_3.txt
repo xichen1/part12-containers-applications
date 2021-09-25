@@ -1,0 +1,21 @@
+Script started on 2021-09-25 05:25:42-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="131" LINES="24"]
+ppx@ppx-VirtualBox:~/Desktop/part12$ sudo docker container ls -a
+[sudo] password for ppx: 
+CONTAINER ID   IMAGE         COMMAND     CREATED             STATUS                         PORTS     NAMES
+e77bf214072c   ubuntu        "bash"      8 minutes ago       Exited (0) 21 seconds ago                silly_einstein
+c90853a2debf   ubuntu        "bash -i"   9 minutes ago       Exited (0) 9 minutes ago                 xenodochial_almeida
+78b28a3f4ed0   ubuntu        "bash"      About an hour ago   Exited (0) About an hour ago             silly_feistel
+3852198b0771   ubuntu        "bash"      About an hour ago   Exited (0) About an hour ago             admiring_agnesi
+04909aebd230   ubuntu        "bash"      2 hours ago         Exited (0) 26 minutes ago                infallible_swirles
+46560ded2c43   hello-world   "/hello"    2 hours ago         Exited (0) 2 hours ago                   ecstatic_dijkstra
+f3f4b73b55c1   hello-world   "/hello"    2 hours ago         Exited (0) 2 hours ago                   hungry_driscoll
+2930fe8df3d0   hello-world   "/hello"    2 hours ago         Exited (0) 2 hours ago                   boring_solomon
+ppx@ppx-VirtualBox:~/Desktop/part12$ sudo docker start -i silly_einstein
+root@e77bf214072c:/# vi usr/src/app/index.js 
+root@e77bf214072c:/# exit
+exit
+ppx@ppx-VirtualBox:~/Desktop/part12$ exit
+exit
+
+Script done on 2021-09-25 05:26:47-06:00 [COMMAND_EXIT_CODE="0"]
+
