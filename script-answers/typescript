@@ -1,21 +1,0 @@
-Script started on 2021-09-25 03:39:54-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-]0;ppx@ppx-VirtualBox: ~/Desktop/part12[01;32mppx@ppx-VirtualBox[00m:[01;34m~/Desktop/part12[00m$ docker run -it ubuntu bash
-docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create: dial unix /var/run/docker.sock: connect: permission denied.
-See 'docker run --help'.
-]0;ppx@ppx-VirtualBox: ~/Desktop/part12[01;32mppx@ppx-VirtualBox[00m:[01;34m~/Desktop/part12[00m$ docker run -it ubuntu bash[1@s[1@u[C[1@d[1@o[1@ 
-[sudo] password for ppx: 
-Unable to find image 'ubuntu:latest' locally
-latest: Pulling from library/ubuntu
-
-[1A[2K35807b77a593: Pulling fs layer [1B[1A[2K35807b77a593: Downloading  294.1kB/28.57MB[1B[1A[2K35807b77a593: Downloading  2.632MB/28.57MB[1B[1A[2K35807b77a593: Downloading  4.688MB/28.57MB[1B[1A[2K35807b77a593: Downloading  9.096MB/28.57MB[1B[1A[2K35807b77a593: Downloading  11.15MB/28.57MB[1B[1A[2K35807b77a593: Downloading  14.08MB/28.57MB[1B[1A[2K35807b77a593: Downloading  16.44MB/28.57MB[1B[1A[2K35807b77a593: Downloading   18.8MB/28.57MB[1B[1A[2K35807b77a593: Downloading  21.15MB/28.57MB[1B[1A[2K35807b77a593: Downloading  23.51MB/28.57MB[1B[1A[2K35807b77a593: Downloading  25.88MB/28.57MB[1B[1A[2K35807b77a593: Downloading  28.24MB/28.57MB[1B[1A[2K35807b77a593: Verifying Checksum [1B[1A[2K35807b77a593: Download complete [1B[1A[2K35807b77a593: Extracting  294.9kB/28.57MB[1B[1A[2K35807b77a593: Extracting  3.834MB/28.57MB[1B[1A[2K35807b77a593: Extracting  5.014MB/28.57MB[1B[1A[2K35807b77a593: Extracting  6.783MB/28.57MB[1B[1A[2K35807b77a593: Extracting  8.258MB/28.57MB[1B[1A[2K35807b77a593: Extracting  9.437MB/28.57MB[1B[1A[2K35807b77a593: Extracting  10.03MB/28.57MB[1B[1A[2K35807b77a593: Extracting  11.21MB/28.57MB[1B[1A[2K35807b77a593: Extracting  12.98MB/28.57MB[1B[1A[2K35807b77a593: Extracting  14.75MB/28.57MB[1B[1A[2K35807b77a593: Extracting  16.52MB/28.57MB[1B[1A[2K35807b77a593: Extracting  17.99MB/28.57MB[1B[1A[2K35807b77a593: Extracting  19.76MB/28.57MB[1B[1A[2K35807b77a593: Extracting  21.23MB/28.57MB[1B[1A[2K35807b77a593: Extracting     23MB/28.57MB[1B[1A[2K35807b77a593: Extracting  24.18MB/28.57MB[1B[1A[2K35807b77a593: Extracting  24.48MB/28.57MB[1B[1A[2K35807b77a593: Extracting  25.66MB/28.57MB[1B[1A[2K35807b77a593: Extracting  27.13MB/28.57MB[1B[1A[2K35807b77a593: Extracting  28.31MB/28.57MB[1B[1A[2K35807b77a593: Extracting  28.57MB/28.57MB[1B[1A[2K35807b77a593: Pull complete [1BDigest: sha256:9d6a8699fb5c9c39cf08a0871bd6219f0400981c570894cd8cbea30d3424a31f
-Status: Downloaded newer image for ubuntu:latest
-]0;root@04909aebd230: /root@04909aebd230:/# [K]0;root@04909aebd230: /root@04909aebd230:/# pwd
-/
-]0;root@04909aebd230: /root@04909aebd230:/# md kdir usr[1@/usr/src/app
-]0;root@04909aebd230: /root@04909aebd230:/# touch index.js[1@/[1@u[1@s[1@r[1@/[1@s[1@r[1@c[1@/[1@a[1@p[1@p[1@/
-]0;root@04909aebd230: /root@04909aebd230:/# [Kexit
-exit
-]0;ppx@ppx-VirtualBox: ~/Desktop/part12[01;32mppx@ppx-VirtualBox[00m:[01;34m~/Desktop/part12[00m$ exit
-exit
-
-Script done on 2021-09-25 03:40:53-06:00 [COMMAND_EXIT_CODE="0"]
